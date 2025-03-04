@@ -3,6 +3,7 @@ public class Array {
 
         //Cara mengisi array pertama
         String[] arraStrings;
+        //cara kedua
         arraStrings = new String[3];
         arraStrings[0] = "Silvanus";
         arraStrings[1] = "Kukuh";
