@@ -18,6 +18,16 @@ Person(String paraName, String paraAddress){
     address = paraAddress;
 }
 
+//Constructor OverLoading
+//Kalau menggunakan constructor overloading maka bisa memilih constructor mana yang akan digunakan
+// Person(String paramName){
+//     name = paramName;
+// }
+
+//Penggunaan this untuk memanggil constructor lain
+Person(String paraName){
+    this(paraName, null); //Memanggil cosntructor person
+}
 
     
 }
