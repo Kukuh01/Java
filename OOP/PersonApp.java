@@ -12,6 +12,12 @@ public class PersonApp {
         System.out.println(person1.name);
         System.out.println(person1.address);
         System.out.println(person1.country);
+
+        //Pengunaan constructor
+        Person person4;
+        person4 = new Person("Silvanus");
+
+        System.out.println(person4.name);
         
     }
 }
